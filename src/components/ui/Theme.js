@@ -2,6 +2,7 @@ import { createTheme } from "@mui/material/styles";
 
 const arcBlue = "#0B72B9";
 const arcOrange = "#FFBA60";
+const red = "#FF0000";
 const arcGrey = "#b8b8b8";
 const white = "#FFFFFF";
 const black = "#000000";
@@ -17,6 +18,9 @@ export default createTheme({
     secondary: {
       main: arcOrange,
     },
+    error: {
+      main: red,
+    }
   },
   typography: {
     tab: {

@@ -15,6 +15,7 @@ import {
         };
       }
       case ADD_TO_CART: {
+        console.log(state)
         return {
           ...state,
           cartItems: addItemToCart(state.cartItems, action.payload),
